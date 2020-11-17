@@ -1,0 +1,21 @@
+site_name: Template doc-as-code
+site_url: https://github.com/documentation-as-code/ci-cd-for-documentation
+site_description: MkDocs web site
+nav:
+  - Home: 'index.md'
+repo_url: https://github.com/angegar/angegar.github.io
+repo_name: ci-cd-for-documentation
+remote_branch: gh-pages
+theme:
+    name: material
+    include_sidebar: true
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - toc:
+      permalink: True
